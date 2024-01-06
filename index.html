@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specs</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Boostrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- boostrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+                <img src="img/specs.jpg" alt="site icon">
+                <span class="text-uppercase fw-lighter ms-2">Specs Indonesia</span>
+            </a>
+
+            <div class="order-lg-2 nav-btns">
+                <button type="button" class="btn position-relative">
+                    <i class="bi bi-cart-fill"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="bi bi-heart-fill"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">99</span>
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-1 py-1">
+                        <a class="nav-link text-uppercase text-dark" href="#home">Home</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-1 py-1">
+                        <a class="nav-link text-uppercase text-dark" href="#product">Product</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-1 py-1">
+                        <a class="nav-link text-uppercase text-dark" href="#fashion">Fashion</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-1 py-1">
+                        <a class="nav-link text-uppercase text-dark" href="#blogs">Blog</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-1 py-1">
+                        <a class="nav-link text-uppercase text-dark" href="#about">About us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-1 py-1 border-0">
+                        <a class="nav-link text-uppercase text-dark" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- akhir-navbar -->
+
+    <!-- Header -->
+    <header id="home" class="vh-100 carousel slide" data-bs-ride="carousel" style="padding-top: 104px;">
+        <div class="container h-100 d-flex align-items-center carousel-inner">
+            <div class="text-center carousel-item active">
+                <h2 class="text-capitalize text-white">Best colection</h2>
+                <h1 class="text-uppercase py-2 fw-bold text-white">new arrivals</h1>
+                <a href="#" class="btn mt-3 text-uppercase">shop now</a>
+            </div>
+            <div class="text-center carousel-item">
+                <h2 class="text-capitalize text-white">Best price & offer</h2>
+                <h1 class="text-uppercase py-2 fw-bold text-white">new season</h1>
+                <a href="#" class="btn mt-3 text-uppercase">buy now</a>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#home" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#home" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </header>
+    <!-- akhir-header -->
+
+    <!-- product -->
+    <section id="product" class="py-5">
+        <div class="container">
+            <div class="title text-center">
+                <h2 class="position-relative d-inline-block">New collection</h2>
+            </div>
+
+            <div class="row g-0">
+                <div class="d-flex flex-wrap justify-content-center mt-5 filter-button-group">
+                    <button type="button" class="btn m-2 active-filter-btn" data-filter="*">all</button>
+                    <button type="button" class="btn m-2" data-filter=".best">Best Sellers</button>
+                    <button type="button" class="btn m-2" data-filter=".feat">Featured</button>
+                    <button type="button" class="btn m-2" data-filter=".new">New Arrival</button>
+                </div>
+
+                <div class="product-list mt-4 row gx-0 gy-3">
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 best">
+                        <div class="product-img position-relative">
+                            <img src="img/Specs1.jpg" alt="" style="width: 100%;">
+                            <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                            </div>
+                            <p class="text-capitalize my-1">Specs kolaborasi BS 2023</p>
+                            <span class="fw-bold">Rp 699.000</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                        <div class="product-img position-relative">
+                            <img src="img/Specs2.jpg" alt="" style="width: 100%;">
+                            <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                            </div>
+                            <p class="text-capitalize my-1">Specs kolaborasi BS 2023</p>
+                            <span class="fw-bold">Rp 699.000</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 new">
+                        <div class="product-img position-relative">
+                            <img src="img/Specs3.jpg" alt="" style="width: 100%;">
+                            <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                            </div>
+                            <p class="text-capitalize my-1">Specs kolaborasi BS 2023</p>
+                            <span class="fw-bold">Rp 699.000</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 best">
+                        <div class="product-img position-relative">
+                            <img src="img/Specs4.jpg" alt="" style="width: 100%;">
+                            <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                            </div>
+                            <p class="text-capitalize my-1">Specs kolaborasi BS 2023</p>
+                            <span class="fw-bold">Rp 699.000</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                        <div class="product-img position-relative">
+                            <img src="img/Specs5.jpg" alt="" style="width: 100%;">
+                            <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                            </div>
+                            <p class="text-capitalize my-1">Specs kolaborasi BS 2023</p>
+                            <span class="fw-bold">Rp 699.000</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 new">
+                        <div class="product-img position-relative">
+                            <img src="img/Specs6.jpg" alt="" style="width: 100%;">
+                            <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                            </div>
+                            <p class="text-capitalize my-1">Specs kolaborasi BS 2023</p>
+                            <span class="fw-bold">Rp 699.000</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 best">
+                        <div class="product-img position-relative">
+                            <img src="img/Specs7.jpg" alt="" style="width: 100%;">
+                            <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                            </div>
+                            <p class="text-capitalize my-1">Specs kolaborasi BS 2023</p>
+                            <span class="fw-bold">Rp 699.000</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                        <div class="product-img position-relative">
+                            <img src="img/Specs8.jpg" alt="" style="width: 100%;">
+                            <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <span class="text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                            </div>
+                            <p class="text-capitalize my-1">Specs kolaborasi BS 2023</p>
+                            <span class="fw-bold">Rp 699.000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir-product -->
+
+    <!-- special fashion -->
+    <section id="fashion" class="py-5">
+        <div class="container">
+            <div class="title text-center py-5">
+                <h2 class="position-relative d-inline-block">Special Fashion</h2>
+            </div>
+            <div class="fashion-list row g-0">
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="fashion-img position-relative overflow-hidden">
+                        <img src="img/Special_product1.jpg" alt="" class="w-100">
+                        <span class="position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                            <i class="bi bi-heart-fill"></i>
+                        </span>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">Backpack</p>
+                        <span class="fw-bold d-block">Rp 399.000</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="fashion-img position-relative overflow-hidden">
+                        <img src="img/Special_product2.jpg" alt="" class="w-100">
+                        <span class="position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                            <i class="bi bi-heart-fill"></i>
+                        </span>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">Backpack</p>
+                        <span class="fw-bold d-block">Rp 899.000</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="fashion-img position-relative overflow-hidden">
+                        <img src="img/Special_product3.jpg" alt="" class="w-100">
+                        <span class="position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                            <i class="bi bi-heart-fill"></i>
+                        </span>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">Backpack</p>
+                        <span class="fw-bold d-block">Rp 799.000</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="fashion-img position-relative overflow-hidden">
+                        <img src="img/Special_product4.jpg" alt="" class="w-100">
+                        <span class="position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                            <i class="bi bi-heart-fill"></i>
+                        </span>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">Backpack</p>
+                        <span class="fw-bold d-block">Rp 199.000</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir- special fashion -->
+
+    <!-- offer -->
+    <section id="offers" class="py-5">
+        <div class="container">
+            <div class="row d-flex align-items-center text-center justify-content-lg-start text-lg-start">
+                <div class="offers-content">
+                    <span class="text-white">Discount Up to 40%</span>
+                    <h2 class="mt-2 mb-4 text-white">Grand Sale Offer!</h2>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir-offer -->
+
+    <!-- blogs -->
+    <section id="blogs" class="py-5">
+        <div class="container">
+            <div class="title text-center py-5">
+                <h2 class="position-relative d-inline-block">Our Latest Blog</h2>
+            </div>
+            <div class="row gy-3">
+                <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                    <img src="img/Blog_1.jpg" alt="">
+                    <div class="card-body px-0">
+                        <h4 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
+                        <p class="card-text mt-3 text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo voluptatum earum deleniti distinctio, cupiditate neque hic magni ipsam consequuntur! Repudiandae soluta dolore, fuga dolorem reprehenderit aut ipsa laudantium ut obcaecati?</p>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                <span class="fw-bold">Author: </span>Boaz Solosa
+                            </small>
+                        </p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                    <img src="img/Blog_2.jpg" alt="">
+                    <div class="card-body px-0">
+                        <h4 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
+                        <p class="card-text mt-3 text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo voluptatum earum deleniti distinctio, cupiditate neque hic magni ipsam consequuntur! Repudiandae soluta dolore, fuga dolorem reprehenderit aut ipsa laudantium ut obcaecati?</p>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                <span class="fw-bold">Author: </span>Boaz Solosa
+                            </small>
+                        </p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                    <img src="img/Blog_3.jpg" alt="">
+                    <div class="card-body px-0">
+                        <h4 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
+                        <p class="card-text mt-3 text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo voluptatum earum deleniti distinctio, cupiditate neque hic magni ipsam consequuntur! Repudiandae soluta dolore, fuga dolorem reprehenderit aut ipsa laudantium ut obcaecati?</p>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                <span class="fw-bold">Author: </span>Boaz Solosa
+                            </small>
+                        </p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir-blogs -->
+
+    <!-- about -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row gy-lg-5 align-items-center">
+                <div class="col-lg-6 order-lg-1 text-center text-lg-start">
+                    <div class="title pt-3 pb-5">
+                        <h2 class="position-relative d-inline-block ms-4">About Us</h2>
+                    </div>
+                    <p class="lead text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, dolorum?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia placeat, dignissimos molestias enim doloremque dolore laborum quo, quae ratione laboriosam maxime, exercitationem voluptate officia. Ad unde neque quis atque rem.</p>
+                </div>
+                <div class="col-lg-6 order-lg-0">
+                    <img src="img/Banner-img1.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir-about -->
+
+    <!-- popular -->
+    <section id="popular" class="py-5">
+        <div class="container">
+            <div class="title text-center pt-3 pb-5">
+                <h2 class="position-relative d-inline-block ms-4">Popular of this year</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 row g-3">
+                    <h3 class="fs-5">Top rated</h3>
+                    <div class="d-flex align-items-start justify-content-start">
+                        <img src="img/Top_rated1.jpg" class="img-fluid pe-3 w-25" alt="">
+                        <div>
+                            <p class="mb-3">Specs Running</p>
+                            <span>Rp 679.900</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-start justify-content-start">
+                        <img src="img/Top_rated2.jpg" class="img-fluid pe-3 w-25" alt="">
+                        <div>
+                            <p class="mb-3">Specs Running</p>
+                            <span>Rp 679.900</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-start justify-content-start">
+                        <img src="img/Top_rated5.jpg" class="img-fluid pe-3 w-25" alt="">
+                        <div>
+                            <p class="mb-3">Specs Running</p>
+                            <span>Rp 679.900</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 row g-3">
+                    <h3 class="fs-5">Best Selling</h3>
+                    <div class="d-flex align-items-start justify-content-start">
+                        <img src="img/Best-selling1.jpg" class="img-fluid pe-3 w-25" alt="">
+                        <div>
+                            <p class="mb-3">Specs Running</p>
+                            <span>Rp 679.900</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-start justify-content-start">
+                        <img src="img/Best-selling2.jpg" class="img-fluid pe-3 w-25" alt="">
+                        <div>
+                            <p class="mb-3">Specs Running</p>
+                            <span>Rp 679.900</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-start justify-content-start">
+                        <img src="img/Best-selling3.jpg" class="img-fluid pe-3 w-25" alt="">
+                        <div>
+                            <p class="mb-3">Specs Running</p>
+                            <span>Rp 679.900</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 row g-3">
+                    <h3 class="fs-5">On Sale</h3>
+                    <div class="d-flex align-items-start justify-content-start">
+                        <img src="img/On_sale1.jpg" class="img-fluid pe-3 w-25" alt="">
+                        <div>
+                            <p class="mb-3">Specs Running</p>
+                            <span>Rp 679.900</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-start justify-content-start">
+                        <img src="img/On_sale2.jpg" class="img-fluid pe-3 w-25" alt="">
+                        <div>
+                            <p class="mb-3">Specs Running</p>
+                            <span>Rp 679.900</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-start justify-content-start">
+                        <img src="img/On_sale3.jpg" class="img-fluid pe-3 w-25" alt="">
+                        <div>
+                            <p class="mb-3">Specs Running</p>
+                            <span>Rp 679.900</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir-popular -->
+
+    <!-- newslatter -->
+    <section class="py-5" id="contact">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center justify-content-center">
+                <div class="title text-center pt-3 pb-5">
+                    <h2 class="position-relative d-inline-block ms-4">Newslatter Subscription</h2>
+                </div>
+                <p class="text-center text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis id quam, quo fugiat veniam consectetur.</p>
+                <div class="input-group mb-3 mt-3">
+                    <input type="text" class="form-control" placeholder="Enter your Email....">
+                    <button class="btn btn-primary" type="submit">Enter</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir-newslatter -->
+
+    <!-- footer -->
+    <footer class="bg-dark py-5">
+        <div class="container">
+            <div class="row text-white g-4">
+                <div class="col-md-6 col-lg-3">
+                    <a href="index.html" class="text-uppercase text-decoration-none brand text-white">Specs</a>
+                    <p class="text-white text-muted mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt fugit ea at temporibus minima soluta placeat in ipsa alias provident?</p>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="fw-light">Links</h5>
+                    <ul class="">
+                        <li class="my-3">
+                            <a href="#" class="text-white text-decoration-none text-muted"><i class="bi bi-chevron-right"></i>Home</a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#" class="text-white text-decoration-none text-muted"><i class="bi bi-chevron-right"></i>Prouct</a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#" class="text-white text-decoration-none text-muted"><i class="bi bi-chevron-right"></i>Blogs</a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#" class="text-white text-decoration-none text-muted"><i class="bi bi-chevron-right"></i>About Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="fw-light mb-5">Contact Us</h5>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="bi bi-geo-alt-fill"></i>
+                        </span>
+                        <span class="fw-light">
+                            Kebon Jeruk, Jakarta, IND 163
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="bi bi-envelope"></i>
+                        </span>
+                        <span class="fw-light">
+                            Specsindonesia@gmail.com
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="bi bi-telephone-fill"></i>
+                        </span>
+                        <span class="fw-light">
+                            +621345678910
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="fw-light mb-3">Follow us</h5>
+                    <div>
+                        <ul class="list-unstyled d-flex ">
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4"><i class="bi bi-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4"><i class="bi bi-instagram"></i></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4"><i class="bi bi-tiktok"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4"><i class="bi bi-twitter-x"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- akhit-footer -->
+
+    <!-- boostrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- isotop js -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+</body>
